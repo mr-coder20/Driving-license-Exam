@@ -1,0 +1,10 @@
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <changeBounds android:duration="800"/>
+    <fade android:duration="400"/>
+    <slide
+        android:slideEdge="bottom"
+        android:duration="600"/>
+    <changeTransform android:duration="700"/>
+    <changeImageTransform android:duration="700"/>
+</transitionSet>
+

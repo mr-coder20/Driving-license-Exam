@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="165dp"
+    android:layout_height="240dp"
+
+    android:layout_gravity="center_horizontal"
+    android:layout_marginStart="5dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/borderedd_selectable_item_background"
+    android:elevation="30dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <FrameLayout
+
+            android:id="@+id/constraintLayout11"
+            android:layout_width="180dp"
+            android:layout_height="240dp"
+
+            android:background="@drawable/borderedd_selectable_item_background"
+            android:clickable="true"
+            android:elevation="20dp"
+            android:focusable="true"
+            android:padding="5dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="top|center"
+                android:scaleType="fitCenter"
+
+                android:src="@mipmap/ic_launcher_round" />
+
+            <View
+
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_marginTop="165dp"
+                android:background="@color/grey_300">
+
+            </View>
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+android:padding="5dp"
+
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="170dp"
+                android:fontFamily="@font/extra_bold"
+                android:gravity="center"
+                android:text="تابلوهای اخباری"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/Theme._ّFirstProjectOrg2"
+        tools:targetApi="31">
+        <activity
+            android:name=".NoInternetActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Azmon_tabloHa.AzmonT8"
+            android:exported="false" />
+        <activity
+            android:name=".Azmon_tabloHa.AzmonT7"
+            android:exported="false" />
+        <activity
+            android:name=".Azmon_tabloHa.AzmonT6"
+            android:exported="false" />
+        <activity
+            android:name=".Azmon_tabloHa.AzmonT5"
+            android:exported="false" />
+        <activity
+            android:name=".Azmon_tabloHa.AzmonT4"
+            android:exported="false" />
+        <activity
+            android:name=".Azmon_tabloHa.AzmonT3"
+            android:exported="false" />
+        <activity
+            android:name=".Azmon_tabloHa.AzmonT2"
+            android:exported="false" />
+        <activity
+            android:name=".Azmon_tabloHa.AzmonT1"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon15"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon14"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon13"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon12"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon11"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon10"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon9"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon8"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon7"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon5"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon6"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon4"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon3"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.Azmon2"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AzmonHa.ActivityAzmon"
+            android:exported="false" />
+        <activity
+            android:name=".GoldActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyAdapter.GoldActivity"
+            android:exported="false" />
+        <activity
+            android:name="TabloHa.ActivityTabloMaser"
+            android:exported="false" />
+        <activity
+            android:name="TabloHa.ActivityTabloEntezame"
+            android:exported="false" />
+        <activity
+            android:name="TabloHa.ActivityTobloEkhtare"
+            android:exported="false" />
+        <activity
+            android:name="TabloHa.ActivityTabloEkhbare"
+            android:exported="false" />
+        <activity
+            android:name=".ColerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tablo"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

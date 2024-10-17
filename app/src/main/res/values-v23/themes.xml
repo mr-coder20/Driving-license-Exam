@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme._ّFirstProjectOrg2" parent="Theme.Material3.DayNight.NoActionBar">
+
+
+        <item name="colorPrimary">@color/Light_blue</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorButtonNormal">@color/Light_blue</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/Light_blue</item>
+        <item name="android:windowBackground">@color/grey_100</item>
+        <item name="fontFamily">@font/iranyekan</item>
+        <item name="background">@color/white</item>
+    </style>
+</resources>
